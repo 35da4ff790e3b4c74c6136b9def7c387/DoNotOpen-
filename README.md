@@ -1,1 +1,1 @@
-# DoNotOpen! It's just a README, who the f*ck reads this?
+It's just a README, who the f*ck reads this?
