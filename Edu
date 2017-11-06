@@ -1,0 +1,30 @@
+print ("TEXT", lub jakaś zmienna)                         #print jest to wywołanie jakiejś funkcji i wyświetla nam tekst wpisany w nawiasie lub zmienną.
+print(type(zmienna))                                      #print (type(zmienna)) wyświetla nam typ jakieś zmiennej, np. int, float, string, bool.
+zmienna = input("np. podaj wartość zmiennej: ")           #input dzięki tej funkcji użytkownik może nadać wartość zmiennej.
+zmienna = int(input("Podaj wartość zmiennej: "))          #int(input()) dzięki tej funkcji użytkownik może nadać wartość zmiennej o typie "int" czyli liczby całkowitej. Typ int można zamienić z float czy string.
+x = x[0] or x[0:2]                                        #inaczej x równa się pierwsza liczba/litera lub x równa się od pierwszej litery/liczby do trzeciej litery/liczby
+if warunek:                                               #if czyli "jeśli", po funkcji if wpisujemy warunek i jeśli będzie on spełniony to zostanie wykonana operacja wpisana po dwukropku.
+else:                                                     #else czyli "w przeciwnym razie", jeśli w funkcji if nie zostanie spełniony warunek, to wykona się operacja wpisana po dwukropku.
+elif warunek:                                             #elif czyli jeśli nie spełnia warunku if ale spełnia warunek podany w elif (else if) to wykonuje się operacja wypisana po dwukropku.
+lista = ["tekst", liczba]                                 #lista np. przedmiotów, liczba można w niej umieścić co się chce.
+lista.append                                              #lista.append[x] jest to funkcja, która ma za zadanie umieścić coś w naszej liście.
+lista.count                                               #lista.count[x] przelicza ile mamy zmiennych w liście
+tuplee = ("tekst", zmienna)                               #tuple, nie można ich edytować za pomocą funkcji pisanych po. dzięki temu są szybsze w wykonywaniu
+słownik = {"wiek": 20, "wzrost": 180,}                    #słownik, czyli zestaw kluczy i ich wartości
+while warunek:                                            #pętla while, jeśli warunek zostanie spełniony (True), wtedy zostanie wykonana operacja wpisana po dwukropku, jeśli nie to program zostanie zatrzymany.
+                                                          #operacja wpisana po dwukropku będzie wykonywana do w nieskończoność lub dopóki nie zostanie spełniony warunek
+for nazwa_zmiennej in lista lub range(do jakiejś liczby): #pętla for wypisuje zmienne z listy lub jeśli użyjemy funkcji range to wypisze nam ilość liczb podanych w nawiasie licząb od zera.
+in                                                        #w czymś, np. in list oznacz w liście
+or                                                        #or czyli "albo", można jej użyć w funkcji if. np. if x >0 or x > 1. czyli if będzie prawdziwę jeśli zostanie spełniony JEDEN z tych warunków.
+and                                                       #and czyli "i". na przykładzie funkcji if x > 0 and x > 10 czyli if będzie prawdziwę jeśli zostaną spełnione OBA te warunki.
+not                                                       #not czyli "nie". np. if not x > 5: czyli jeśli x NIE jest większe od 5 to warunek zostanie spełniony.
+for list in enumerate(LISTA):                             #numeruje nam każdy argument w naszej liście
+print("Sprawdzam {}".format("teraz"))                     #funkcja format wpisuje nam argument wpisany w nawiasie za klamerki
+break                                                     #przerywa pętle
+continue                                                  #pomija nam część listy
+print(time.strftime("%H:%M %d.%m.%Y"))
+datetime.datetime.now()
+import datetime, time
+def
+return
+end
