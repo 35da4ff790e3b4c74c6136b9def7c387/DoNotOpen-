@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytul strony</title>
+    <style type="text/css">
+        body{background: url(spongebob_background_thing_by_fluffymystic-da62dtt.png);
+        background-attachment: fixed;
+        }
+        div.Container{
+	    width: 1140px;
+	    margin: auto;
+	    padding: 0px 15px 0px 15px;
+        }
+        div.Main-content{
+	    width: 70%;
+	    float: left;
+        }
+        div.Sidebar{
+    	width: 30%;
+    	height: 100%;
+    	float: left;
+        }
+        div.Content{
+	    overflow: auto;
+        }
+        header, article, footer, aside{
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 20px;
+
+        }
+        header{
+        margin-bottom: 15px;
+        }
+        article{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        overflow: auto;
+        text-align: justify;
+        }
+        footer{
+        margin-top: 15px;
+        text-align: center;
+        }
+        figure{
+        float: left;
+        border-right: 2px double;
+        border-bottom: 2px double;
+        border-top: 2px double;
+        border-left: 2px double;
+        }
+        figcaption{
+        text-align: center;
+        }
+        h2{
+        text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <header>
+            <h1 align="center"> BIKINI DOLNE </h1>
+        </header>
+        <div class="Content">
+            <div class="Main-content">
+                <section>
+                    <article>
+                        <h2>Spongebob Kanciastoporty</h2>
+                        <figure>
+                            <img src="main@2x.png">
+                            <figcaption>Spongebob</figcaption>
+                        </figure>
+                        <p>Robert ,,SpongeBob" Kanciastoporty (ang. Robert ,,SpongeBob'' SquarePants) (ur. 14 lipca 1986, 31 lat) - główny bohater, oraz postać amerykańskiego, animowanego serialu komediowego produkcji Nickelodeon o tej samej nazwie. Był stworzony on przez morskiego biologa i kreatora serialu, Stephena Hillenburga, oraz jego głos w oryginalnej wersji jest podkładany przez Tom'a Kenny'ego, natomiast w polskiej wersji przez Jacka Kopczyńskiego. Spongebob jest dziecinną, ale za to miłą, zabawną, morską gąbką, żyjącą w ananasie, który znajduje się w podwodnym mieście zwanym Bikini Dolne. Pracuje jako kucharz w restauracji Pod Tłustym Krabem, w której ma on niesamowite zdolności. Niekiedy gąbka ma brak mądrości, oraz jest dobra w przeszkadzaniu innym, tak jak najbardziej Skalmarowi Obłynosowi, jego sąsiadowi i kasjerze restauracji, ale i tak umie się skupić na sobie. Pojawia się on we wszystkich odcinkach serialu, oprócz odcinka "Dobre algi, gdzie nas nie ma", w którym jego alternatywny odpowiednik go zastępuje. Po sukcesie serialu, został on główną maskotką Nickelodeon.</p>
+                    </article>
+
+                    <article>
+                        <h2>Patryk</h2>
+                        <figure>
+                            <img src="Patrick_Star.svg.png">
+                            <figcaption>Patryk</figcaption>
+                        </figure>
+                        <p>Patryk Rozgwiazda (ang. Patrick Star) (ur. 26 lutego 1986) — różowa rozgwiazda nosząca tylko seledynowe krótkie spodenki we fioletowe kwiaty. Mimo, że ma niezwykle niski iloraz inteligencji, jest najlepszym przyjacielem i nieodłącznym kompanem SpongeBoba. W wolnym czasie lubi nic nie robić lub łapać meduzy. Mieszka pod wielkim głazem, jest sąsiadem Skalmara i SpongeBoba. Lubi jeść wszystko co mu wpadnie w ręce. Jest bardzo leniwy i gruby, nie uprawia wcale sportu. Ma siostrę Sam.</p>
+                    </article>
+                </section>
+            </div>
+
+            <div class="Sidebar">
+                <aside>
+                    <h2>REKLAMY</h2>
+                    <p></p>
+                </aside>
+            </div>
+        </div>
+        <footer> Strona stworzona przez Piotra Gutowskiego © </footer>
+    </div>
+</body>
+</html>
+<!-- Zdjęcia
+https://imgur.com/liaJeLK
+https://imgur.com/XJwNXCR
+https://imgur.com/9YEFQ6F
+-->
