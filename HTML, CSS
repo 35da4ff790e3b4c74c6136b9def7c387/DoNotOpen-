@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tytul strony</title>
-    <style type="text/css">
+    <style>
         body{background: url(spongebob_background_thing_by_fluffymystic-da62dtt.png);
         background-attachment: fixed;
         }
@@ -11,6 +11,7 @@
 	    width: 1140px;
 	    margin: auto;
 	    padding: 0px 15px 0px 15px;
+	    font-family: Arial;
         }
         div.Main-content{
 	    width: 70%;
@@ -54,21 +55,37 @@
         }
         h2{
         text-align: center;
+        color:
         }
-
-
+        h1{
+        text-align: center
+        }
+        .rainbow {
+  background-image: -webkit-gradient( linear, left top, right top,
+    color-stop(0, #f22),
+    color-stop(0.15, #f2f),
+    color-stop(0.3, #22f),
+    color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),
+    color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2),
+    color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
     </style>
 </head>
 <body>
     <div class="Container">
         <header>
-            <h1 align="center"> BIKINI DOLNE </h1>
+            <h1 class="rainbow"> BIKINI DOLNE </h1>
         </header>
         <div class="Content">
             <div class="Main-content">
                 <section>
                     <article>
-                        <h2>Spongebob Kanciastoporty</h2>
+                        <h2 style="color: #F0FF00;">Spongebob Kanciastoporty</h2>
                         <figure>
                             <img src="main@2x.png">
                             <figcaption>Spongebob</figcaption>
@@ -77,7 +94,7 @@
                     </article>
 
                     <article>
-                        <h2>Patryk</h2>
+                        <h2 style="color: #F6908A;">Patryk</h2>
                         <figure>
                             <img src="Patrick_Star.svg.png">
                             <figcaption>Patryk</figcaption>
@@ -98,8 +115,3 @@
     </div>
 </body>
 </html>
-<!-- Zdjęcia
-https://imgur.com/liaJeLK
-https://imgur.com/XJwNXCR
-https://imgur.com/9YEFQ6F
--->
